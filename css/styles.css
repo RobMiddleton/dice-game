@@ -1,0 +1,51 @@
+.scoreCard{
+  border:2px solid #000;
+  padding:5px;
+  margin:5px auto;
+  width:60%;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.wrapper{
+  border:2px solid #000;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* padding:5px; */
+  text-align: center;
+}
+.wrapper>div{
+  padding:2px;
+  border:1px solid #000;
+}
+.upper{
+  margin:5px;
+}
+.lower{
+  margin:5px;
+}
+.lowTitle{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.container-fluid{
+  background-color:#2b78e4;
+  text-align: center;
+}
+.main-img{
+  width:50%;
+}
+
+.gameArea{
+  background-color: green;
+  padding:5px;
+  width:66%;
+}
+.gameArea>img{
+  width:90px;
+  height:90px;
+  border-radius: 7%;
+  margin: 15px 30px;
+}

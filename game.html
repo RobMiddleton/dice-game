@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yahtzee</title>
+
+  <!-- css links -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Bootstrap  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">YAHTZEE</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"><i class="fas fa-undo"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="scoreCard">
+      <div class="wrapper upper">
+        <div>UPPER SECTION</div>
+        <div>HOW TO SCORE</div>
+        <div>Score</div>
+
+        <div>Aces <i></i> =1</div>
+        <div>Count and add only Aces</div>
+        <div>0</div>
+
+        <div>Twos <i></i> =2</div>
+        <div>Count and add only Twos</div>
+        <div>0</div>
+
+        <div>Threes <i></i> =3</div>
+        <div>Count and add only Threes</div>
+        <div>0</div>
+
+        <div>Fours <i></i> =4</div>
+        <div>Count and add only Fours</div>
+        <div>0</div>
+
+        <div>Fives <i></i> =5</div>
+        <div>Count and add only Fives</div>
+        <div>0</div>
+
+        <div>Sixes <i></i> =6</div>
+        <div>Count and add only Sixes</div>
+        <div>0</div>
+
+        <div>SCORE</div>
+        <div></div>
+        <div>0</div>
+
+        <div>BONUS</div>
+        <div>If score is 63 or over, +35</div>
+        <div>0</div>
+
+        <div>TOTAL SCORE</div>
+        <div>Of Upper Section</div>
+        <div>0</div>
+
+      </div>
+      <div class="wrapper lower">
+
+        <div class="lowTitle">LOWER SECTION</div>
+
+        <div>Three of A Kind</div>
+        <div>Total of all dice</div>
+        <div>0</div>
+
+        <div>Four of A Kind</div>
+        <div>Total of all dice</div>
+        <div>0</div>
+
+        <div>Full House</div>
+        <div>3 of a kind and a pair, +25</div>
+        <div>0</div>
+
+        <div>Small Straight</div>
+        <div>Sequence of 4, +30</div>
+        <div>0</div>
+
+        <div>Large Straight</div>
+        <div>Sequence of 5, +40</div>
+        <div>0</div>
+
+        <div>YAHTZEE</div>
+        <div>5 of a kind, +50</div>
+        <div>0</div>
+
+        <div>CHANCE</div>
+        <div>Score total of all dice</div>
+        <div>0</div>
+
+        <div>YAHTZEE BONUS</div>
+        <div>+100</div>
+        <div>0</div>
+
+        <div>TOTAL</div>
+        <div>Of Upper Section <i></i></div>
+        <div>0</div>
+
+        <div>TOTAL</div>
+        <div>Of Lower Section <i></i></div>
+        <div>0</div>
+
+        <div>GRAND TOTAL</div>
+        <div><i></i></div>
+        <div>0</div>
+      </div>
+    </div>
+    <div class="gameArea"> <img src="images/dice-1.png" alt="dice-image">
+      <img src="images/dice-1.png" alt="dice-image">
+      <img src="images/dice-1.png" alt="dice-image">
+      <img src="images/dice-1.png" alt="dice-image">
+      <img src="images/dice-1.png" alt="dice-image">
+    </div>
+    <div class="ctrls">
+      <button type="button" name="button">Roll</button>
+      <button type="button" name="button">Submit</button>
+    </div>
+    <footer>
+      <p>© 2019 Rob Middleton.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
